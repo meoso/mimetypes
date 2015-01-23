@@ -1,5 +1,7 @@
 What is does: Displays all system mime types and associated applications prefixed with the command `xdg-mime default`.
 
+Why use it: You need to set a default application for a specific mime-type via commandline.
+
 How to use it: 1) Execute the command and optionally pipe to grep searching for specific type or application. 2) copy and paste your choice of command.
 
 Example 1: `./mimetypes | grep mp4`
